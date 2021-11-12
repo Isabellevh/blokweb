@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Isabelle van Huystee - 500852575
+Sanne 't Hooft (vervangen door jouw naam)
 
 #### Je startniveau:
-Blauwe piste
+hier je startniveau (kies uit zwart, rood óf blauw)
 
 #### Je focus:
-De Surface Plane
+hier je focus (kies uit responsive óf surface plane)
  
 </details>
 
@@ -36,15 +36,15 @@ De Surface Plane
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-https://www.mms.com/nl-nl/ 
- 
+link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/mmhome.jpg" width="375px" alt="De home pagina van de M&M website in kerst sfeer.">
+<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/mmkoop.jpg" width="375px" alt="De 'onze producten' pagina van de M&M website in kerst sfeer. ">
+<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
