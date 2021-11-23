@@ -40,11 +40,11 @@ https://www.mms.com/nl-nl/
  
 #### Screenshot(s) van de eerste pagina (small screen): 
 De M&M Home pagina 
-<img src="images/mmhome.jpg" width="375px" alt="De Home pagina van de M&M website in de kerstsfeer.">
+<img src="images/sshome.jpg" width="375px" alt="De Home pagina van de M&M website in de kerstsfeer.">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 De M&M Onze producten pagina 
-<img src="images/mmkoop.jpg" width="375px" alt="De onze producten pagina van de M&M website in de kerstsfeer.">
+<img src="images/sswinkelwagen.jpg" width="375px" alt="De onze producten pagina van de M&M website in de kerstsfeer.">
  
 </details>
 
