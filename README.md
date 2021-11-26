@@ -76,18 +76,28 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Bij het opstarten van het coderen ging het even wat moeilijk, maar nu ik eenmaal bezig ben denk ik dat het wel goed komt. Hieronder afbeeldingen van mn huidige website en code.
+<img src="./images/basiswebsite_25_11.png" width="375px" alt="volledige webstite tot nu toe">
+<img src="./images/code1.png" width="375px" alt="eerste deel code">
+<img src="./images/code2.png" width="375px" alt="tweede deel code">
+<img src="./images/code3.png" width="375px" alt="derde deel code">
+
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1 Rebecca                                      | student 2 Beyza         | student 3 Ik                                      | student 4 Daan      |
-Hoe ik het beste een logo in de Header zet            | ---                     | Hoe ik het beste een img over een img kan zetten  | Hoe de animatie infade op mijn site |
-| Hoe ik de P en H1 in een section kan aanpassen        | en dit                  | en ik dit      | en dan ik dat    |
-| Waarom de pagina niet verde rwil scrollen             | dit als er tijd is      | nog een punt   | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+### student 1 Rebecca 
+ Hoe ik het beste een logo in de Header zet 
+ Hoe ik de P en H1 in een section kan aanpassen
+ Waarom de pagina niet verder wil scrollen
+### student 2 Beyza          
+ -
+### student 3 Ik                                       
+ Hoe ik het beste een img over een img kan zetten
+ Hoe ik het beste een indeling kan maken voor mijn verschillende buttons
+### student 4 Daan
+ Hoe de animatie infade op mijn site zet
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
