@@ -88,16 +88,16 @@ Bij het opstarten van het coderen ging het even wat moeilijk, maar nu ik eenmaal
 samen met je groepje opstellen
 
 ### student 1 Rebecca 
- Hoe ik het beste een logo in de Header zet 
- Hoe ik de P en H1 in een section kan aanpassen
- Waarom de pagina niet verder wil scrollen
+ - Hoe ik het beste een logo in de Header zet 
+ - Hoe ik de P en H1 in een section kan aanpassen
+ - Waarom de pagina niet verder wil scrollen
 ### student 2 Beyza          
  -
 ### student 3 Ik                                       
- Hoe ik het beste een img over een img kan zetten
- Hoe ik het beste een indeling kan maken voor mijn verschillende buttons
+ - Hoe ik het beste een img over een img kan zetten
+ - Hoe ik het beste een indeling kan maken voor mijn verschillende buttons
 ### student 4 Daan
- Hoe de animatie infade op mijn site zet
+ - Hoe de animatie infade op mijn site zet
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
