@@ -11,8 +11,12 @@
   --footer-color: #F9D247;
   --pink-background: #BA3779;
   --button-color: #592411;
+  --wit-color: #ffffff;
+  --zwart-kleur: #333333;
+  --rodebutton-color: #C33D3F;
 
 }
+
 
 body {
   text-transform: uppercase;
@@ -24,45 +28,174 @@ section img {
 }
 
 
+h1{
+  background-color: white;
+  opacity: 50%;
+  padding: 1em;
+}
+
+p a img{
+  width: 20%;
+}
+
+p a{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--rodebutton-color);
+  border: 1px solid var(--button-color);
+  height: 3em;
+  border-radius: 1.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+h2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 2em;
+
+}
+
+h2 img{
+  width: 20%;
+}
+
+h3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  
+}
+
+li{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+}
+
+article button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: var(--wit-color);
+  border: 1px solid var(--button-color);
+  height: 4.5em;
+  
+  text-transform: uppercase;
+  font-size: 1.3em;
+  
+  width: 80vw;
+  
+}
+
+button img {
+  height: 2em;
+}
+
+
+
+/*
+display: inline-block;
+  border: solid 1p;
+  background: var(--wit-color);
+  text-decoration: none;
+  border-radius: 1.5em;
+  text-transform: uppercase;
+  */
+
+
 article {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
-/* article 1= hoofd kop */
-article:nth-of-type(1) {
-  background-image: url("../images/kerstverpakking.jpeg");
+/* article 2= kerstmis verpakking */
+section:nth-of-type(2) article:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("../images/mmkerstboom.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-}
 
-
-/* article 2= kerstverpakking*/
-article:nth-of-type(2) {
-  background-image: url("../images/mmkerstboom.jpeg");
+  height: calc(100vw - 3em);
+  width: calc(100vw - 1em);
+  margin: 1.5em;
 }
 
 /* article 3= verjaardag*/
-article:nth-of-type(3) {
-  background-image: url(https://cdn-tp4.mozu.com/26445-m2/cms/files/ba081692-ee05-4bfc-b4de-3c39ac6bd307?maxWidth=548&quality=80);
+section:nth-of-type(2) article:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("../images/mmpaarsoranje.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: calc(100vw - 3em);
+  width: calc(100vw - 1em);
+  margin: 1.5em;
 }
 
 /* article 4= loveyou*/
-article:nth-of-type(4) {
-  background-image: url(https://cdn-tp4.mozu.com/26445-m2/cms/files/151cfc91-2257-4526-9695-4d259f93d7cb?maxWidth=548&quality=80);
+section:nth-of-type(2) article:nth-of-type(3) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("../images/mmloveyou.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: calc(100vw - 3em);
+  width: calc(100vw - 1em);
+  margin: 1.5em;
+
 }
 
-/* article 5= perfecte geschenk
-article:nth-of-type(5){
-  
+/* article 4= loveyou
+article:nth-of-type(4) {
+  background-image: url("../images/mmzakje.jpeg");
+
 }*/
 
-/* article 6= hartje
+
+/*article 5= perfecte geschenk*/
+article:nth-of-type(5){
+  background-image: url("../images/vallendemms.png");
+
+}
+
+/*article 6= hartje*/
 article:nth-of-type(6){
-  background-image: url(https://cdn-tp4.mozu.com/26445-42107/cms/42107/files/a0a61052-6205-4bf8-a029-f0ca50eeddeb?_mzcb=_1604095260977&maxWidth=500);
-}*/
+  background-image: url("../images/mmhart.jpeg");
+}
 
 section:nth-of-type(5) {
   background-color: var(--pink-background);
@@ -74,19 +207,3 @@ section:nth-of-type(5) article {
 }
 
 
-button {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-  border: 1px solid var(--button-color);
-  height: 3em;
-  border-radius: 1.5em;
-  text-transform: uppercase;
-
-}
-
-button img {
-  height: 2em;
-}
