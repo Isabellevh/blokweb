@@ -88,24 +88,23 @@ Bij het opstarten van het coderen ging het even wat moeilijk, maar nu ik eenmaal
 samen met je groepje opstellen
 
 ### student 1 Rebecca 
- - Hoe ik het beste een logo in de Header zet 
- - Hoe ik de P en H1 in een section kan aanpassen
- - Waarom de pagina niet verder wil scrollen
+ - Hoe ik het beste een logo in de Header zet.
+ - Hoe ik de P en H1 in een section kan aanpassen.
+ - Waarom de pagina niet verder wil scrollen.
 ### student 2 Beyza          
  -
 ### student 3 Ik                                       
- - Hoe ik het beste een img over een img kan zetten
- - Hoe ik het beste een indeling kan maken voor mijn verschillende buttons
+ - Hoe ik het beste een img over een img kan zetten.
+ - Hoe ik het beste een indeling kan maken voor mijn verschillende buttons.
 ### student 4 Daan
- - Hoe de animatie infade op mijn site zet
+ - Hoe de animatie infade op mijn site zet.
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+We hebben goed gekeken naar mijn basiswebsite en mijn vragen, daar kwamen de volgende punten uit:
+- De structuur van mijn HTML en CSS is erg netjes.
+- Ik ben goed opweg. 
+- Uitleg gekregen over hoe ik het beste twee verschillende image over elkaar heen kan plaatsen. 
+- Dat ik het beste nog specifieker kan zijn in het aanroepen in mijn CSS om zo verwarring te voorkomen. 
 
 </details>
 
@@ -119,18 +118,23 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Afgelopen week heb ik veel gewerkt. De Basiswebsite is dan ook voor 90% klaar, het enige waar ik nog even naar moet kijken is het Hamburger Menu en de Footer. Hier was ik wel al mee begonnen, maar dat liep nog niet helemaal lekker. 
+<img src="./images/basiswebsite_3_12.png" width="375px" alt="volledige webstite tot nu toe">
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+### student 1 Rebecca 
+ -  Hoe spreek ik een article in een section aan in de footer zonder de code van de daarvoor aangesproken article in section te krijgen?
+### student 2 Beyza 
+ -
+### student 3 Ik 
+ - Hoe kan ik het beste mijn hamburger menu uitklappen? 
+ - Waarom schaalt deze afbeelding niet mee naar 'center' als ik wel hetzelfde heb gecodeerd als de andere? - regel 205
+### student 4 Daan
+- Hoe kan ik mijn menu button laten animeren?
+- Hoe kan er voorzorgen dat de menu knop bovenaan staat
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
