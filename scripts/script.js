@@ -1,7 +1,15 @@
-// JavaScript Document
+// JavaScript Document//
 
-document.querySelector
+var menu = document.querySelector('.menu');
+var openButton = document.querySelector('.open');
+var closeButton = document.querySelector('.close');
 
-addEventListener
 
-// 
+openButton.addEventListener('click', toggleMenu);
+closeButton.addEventListener('click', toggleMenu);
+
+
+function toggleMenu() {
+menu.classList.toggle('menu-open');
+
+}

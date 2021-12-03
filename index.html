@@ -10,9 +10,7 @@
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@400;700&family=Open+Sans:wght@300&family=Roboto:wght@300;400;500&family=Spartan:wght@100&display=swap"
-		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
@@ -20,9 +18,13 @@
 
 <body>
 	<header>
-		<img src="./images/bars.svg" alt="hamburger">
+		<button class="open"><img src="./images/bars.svg" alt="hamburger"></button>
+		<button class="close"> <img src="./images/times.svg" alt="kruisje"></button>
+		<img class="logo" src="./images/mms-logobruin.svg" alt="mm bruin logo">
+		<button><img src="./images/search.svg" alt="search"></button>
+		<button><img src="./images/shopping-cart-alt.svg" alt="winkelwagen"></button>
 
-		<nav>
+		<nav class="menu">
 			<ul>
 				<li><a href="#">Ontwerp je eigen M&M's</a></li>
 				<li><a href="#">Onze producten</a></li>
@@ -31,7 +33,7 @@
 				<li><a href="#">Bedrijfsruimte</a></li>
 			</ul>
 		</nav>
-	
+
 	</header>
 	<main>
 		<!-- section 1-->
@@ -40,7 +42,7 @@
 			<article>
 				<h1>Een uniek cadeau voor een magisch kerstfeest</h1>
 				<p>
-					<a href="http://#">Ontwerp uw eigen M&M <img src="./images/mms-logobruin.svg" alt="logo"></a> 
+					<a href="http://#">Ontwerp uw eigen<img src="./images/mms-logobruin.svg" alt="logo"></a>
 				</p>
 			</article>
 			<img src="images/champanjemm.jpeg" alt="champanje">
@@ -64,62 +66,64 @@
 
 		<!-- section 3-->
 		<section>
-			<h2> <img src="./images/mymm.png" alt="mymm logo"> Maak het persoonlijk</h2>
+			<h2><img src="./images/mymm.png" alt="mymm logo">Maak het persoonlijk</h2>
+
 			<ul>
 				<li>
-					<h3> Kies je kleuren</h3>
-					<img src="./images/mmrondje.png" alt="logomm"> 
+					<h3> <span>1 </span> Kies je kleuren</h3>
+					<img src="./images/mmrondje.png" alt="logomm">
 				</li>
 				<li>
-					<h3>  Personaliseer</h3>
+					<h3> <span>2 </span> Personaliseer</h3>
 					<img src="./images/mmbeelden.gif" alt="gif">
 				</li>
 				<li>
-					<h3>  Kies je verpakking</h3>
+					<h3> <span>3 </span>Kies je verpakking</h3>
 					<img src="./images/mmzakje.jpeg" alt="zakje">
 				</li>
 			</ul>
 			<p>Je eigen M&M's ontwerpen is super simpel!</p>
-			<button> <img src="./images/customize-button-icon.svg" alt="logo"> uw eigen M&M'S</button>
+			<a> <img src="./images/customize-button-icon.svg" alt="logo"> Ontwerp uw eigen M&M'S</a>
 		</section>
 
 		<!-- section 4 SPECIALE GELEGENHEID-->
 		<section>
 			<h2>Speciale Gelegenheid</h2>
-			<button>
-				<img src="./images/customize-button-icon.svg" alt="logo">
-				<strong>Ontwerp u eigen M&M's</strong>
-			</button>
+			<a> <img src="./images/customize-button-icon.svg" alt="logo"> Ontwerp uw eigen M&M'S</a>
 			<img src="./images/huwelijkmm.jpeg" alt="huwelijkstaart">
 			<p>Huwelijk</p>
 		</section>
 
 		<!-- section 5 HET PERFECTE GESCHENK-->
 		<section>
-			<!-- article 5-->
+			<!-- article 1-->
 			<article>
 				<img src="./images/vallendemms.png" alt="vallende mms">
 				<h2>Het perfecte geschenk</h2>
-				<button>Ontwerp uw</button>
 			</article>
-			<!-- article 6-->
+
+			<!-- article 2-->
+			<article>
+				<a>Ontwerp uw </a>
+			</article>
+
+			<!-- article 3-->
 			<article>
 				<img src="./images/mmhart.jpeg" alt="hartje">
 				<p>Liefde verpakking</p>
-				<button> <img src="./images/customize-button-icon.svg" alt="logo"> </button>
+				<a> <img src="./images/customize-button-icon.svg" alt="logo"> Ontwerp uw eigen M&M'S</a>
 			</article>
 		</section>
 
 		<!-- section 6-->
 		<section>
 			<img src="./images/mmgeel.jpeg" alt="gele M">
-			<button>Bedrijfsruimte</button>
+			<a>Bedrijfsruimte</a>
 		</section>
 
 		<!-- section 7-->
 		<section>
-			<img src="./images/mmgebouw.png" alt="berlijn">
-			<button>Werken de Berlijnse Store</button>
+			<a> Werken de Berlijnse Store</a>
 		</section>
 
 		<!-- section 8-->
@@ -146,8 +150,8 @@
 				</summary>
 			</details>
 			<details></details>
-				<summary></summary>
-				<summary></summary>
+			<summary></summary>
+			<summary></summary>
 
 			<a href="#"></a>
 			<a href="#"></a>
