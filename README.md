@@ -137,12 +137,10 @@ We lopen in het groepje allemaal nog tegen het openen en sluiten van het hamburg
 - Hoe kan er voorzorgen dat de menu knop bovenaan staat
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Hoe ik het beste kon werken met mijn hamburger menu. 
+- Dat ik vast kan gaan nadenken over welke 5 onderdelen ik wil gaan verwerken in mijn website pagina's om zo aan de minimum 5 onderdelen te komen voor de Surface plane.
+- Dat mijn website er netjes uit ziet en ik heel goed bezig ben.
+- Dat ik eerst moet gaan beginnen met het bouwen van de tweede pagina, daarna pas de speciale onderdelen moet gaan toevoegen aan beide pagina's.
 
 </details>
 
