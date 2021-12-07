@@ -50,43 +50,219 @@ header nav{
 header nav ul li a{
   line-height: 2em;
   text-decoration: none;
+}
+ 
+/* HAMBURGER MENU */
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+/* Ontwerp je eigen mm's*/
+header nav ul li:first-of-type {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+
+  margin: 1em 2em 0 2em;
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+header nav ul li:first-of-type img:nth-of-type(1){
+  width: 20%;
+}
+
+header nav ul li:first-of-type img:nth-of-type(2){
+  width: 10%;
+  margin-left: 1em;
+}
+
+/* Onze producten*/
+header nav ul li:nth-of-type(2) {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+
+  margin: 1em 0 0 2em;
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+header nav ul li:nth-of-type(2) img:nth-of-type(1){
+  width: 20%;
+}
+
+header nav ul li:nth-of-type(2) img:nth-of-type(2){
+  width: 10%;
+  margin-left: 5em;
+}
+
+/* Events en Ideeen*/
+header nav ul li:nth-of-type(3) {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+
+  margin: 1em 0 0 2em;
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+header nav ul li:nth-of-type(3) img:nth-of-type(1){
+  width: 20%;
+}
+
+header nav ul li:nth-of-type(3) img:nth-of-type(2){
+  width: 10%;
+  margin-left: 5.5em;
+}
+
+/* Ervaar MMS*/
+header nav ul li:nth-of-type(4) {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+
+  margin: 1em 0 0 2em;
+  color: var(--main-color);
+  font-weight: bold;
   
 }
 
+header nav ul li:nth-of-type(4) img:nth-of-type(1){
+  width: 20%;
+}
 
-
-header nav ul li:first-of-type {
+header nav ul li:nth-of-type(4) img:nth-of-type(2){
   width: 10%;
-  background-color: red;
+  margin-left: 6.4em;
+}
 
+/* Bedrijfsruimte*/
+header nav ul li:nth-of-type(5) {
   display: flex;
-  justify-content: space-around;
-  flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
-}
+  flex-direction: row;
 
-header nav ul li:nth-of-type(2) img{
-  width: 10%;
-  background-color: orange;
-
-}
-
-header nav ul li:nth-of-type(3) img{
-  width: 10%;
-  background-color: yellow;
+  margin: 1em 0 0 2em;
+  color: var(--main-color);
+  font-weight: bold;
+  color: var(--main-color);
 
 }
 
-header nav ul li:nth-of-type(4) img{
-  width: 10%;
-  background-color: green;
-
+header nav ul li:nth-of-type(5) img:nth-of-type(1){
+  width: 20%;
 }
 
-header nav ul li:nth-of-type(5) img{
+header nav ul li:nth-of-type(5) img:nth-of-type(2){
   width: 10%;
-  background-color: blue;
+  margin-left: 5.5em;
+}
 
+/* Schrijf u in*/
+header nav ul li:nth-of-type(6){
+  display: flex;
+  justify-content: center;
+
+  margin-top: 1.5em;
+  font-family:'Roboto', sans-serif;
+  font-weight: bold;
+  color: var(--accent-color);
+  text-align: center;
+}
+
+/*Account aanmaken butten*/
+header nav ul li:nth-of-type(7){
+  display: flex;
+  justify-content: center;
+
+  margin-top: 1.5em;
+  padding: .5em 0 .5em 0;
+
+  background-color: var(--main-color);
+  border-radius: 2.5em;
+
+  font-family:'Roboto', sans-serif;
+  font-weight: bold;
+  color: var(--wit-color);
+}
+
+/*heeft u al account*/
+header nav ul li:nth-of-type(8){
+  display: flex;
+  justify-content: center;
+
+  margin-top: 1.5em;
+  font-family:'Roboto', sans-serif;
+  font-weight: bold;
+  color: var(--accent-color);
+  text-align: center;
+}
+
+/*inloggen*/
+header nav ul li:nth-of-type(9){
+  display: flex;
+  justify-content: center;
+
+  margin-top: .5em;
+  font-family:'Roboto', sans-serif;
+  font-weight: bold;
+  color: var(--accent-color);
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*status bestelling*/
+header nav ul li:nth-of-type(10){
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+
+  background-color: #f9f9f9;
+
+  margin-top: 1.5em;
+  padding: 1em 1em 1em 1em;
+  
+  font-family:'Roboto', sans-serif;
+  font-size: smaller;
+
+  color: var(--accent-color);
+  text-align: center;
+}
+
+header nav ul li:nth-of-type(10) img:nth-of-type(1){
+  width: 10%;
+  margin-right: .5em;
+}
+
+/*nederland*/
+header nav ul li:nth-of-type(11){
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+
+  background-color: #f9f9f9;
+  padding: 1em 1em 1em 1em;
+  
+  font-family:'Roboto', sans-serif;
+  font-size: smaller;
+
+  color: var(--accent-color);
+  text-align: center;
+}
+
+header nav ul li:nth-of-type(11) img:nth-of-type(1){
+  width: 10%;
+  margin-right: .5em;
 }
 
 .menu-open{
@@ -148,7 +324,7 @@ article button {
   width: 80vw;
 }
 
-article {
+main article {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -165,7 +341,7 @@ h1{
   font-weight: bold;
 }
 
-section:nth-of-type(1) article:nth-of-type(1){
+main section:nth-of-type(1) article:nth-of-type(1){
   background-image: url("../images/roodgroenmm.jpeg");
 }
 
@@ -465,12 +641,12 @@ section:nth-of-type(5) article:nth-of-type(3) a img{
   margin-top: .2em;
 }
 
-article:nth-of-type(5){
+section:nth-of-type(5) article:nth-of-type(5){
   background-image: url("../images/vallendemms.png");
 }
 
 /*hartje*/
-article:nth-of-type(6){
+section:nth-of-type(5) article:nth-of-type(6){
   background-image: url("../images/mmhart.jpeg");
 }
 
@@ -537,6 +713,314 @@ section:nth-of-type(7) a{
   color: var(--wit-color);
 }
 
-/* SECTION 8 -- Berlin*/
+/* SECTION 8 -- Zij vertrouwen op ons*/
+section:nth-of-type(8) img{
+ /* display: flex;
+  justify-content: center;
+  align-items: center;*/
+  
+  width: 60%;
+  margin-left: 4em;
+  margin-bottom: 2em;
+}
+
+/* FOOTER - Section 9 */
+footer section{
+  background-color: var(--footer-color);
+}
+
+footer section article{
+  display: flex;
+  flex-direction: column;
+}
+
+footer section:nth-of-type(1) article:nth-of-type(1) p:nth-of-type(1){
+  font-weight: bold;
+  color: var(--main-color);
+  margin-left: 1em;
+}
+
+footer section:nth-of-type(1) article:nth-of-type(1) p:nth-of-type(2){
+  color: var(--accent-color);
+  margin-left: 1em;
+  text-transform: initial;
+}
+
+/* FOOTER - input email */
+footer section:nth-of-type(1) article:nth-of-type(1) form{
+    display: flex;
+
+}
+
+footer section:nth-of-type(1) article:nth-of-type(1) form input{
+  border: none;
+  border-radius: 2em;
+  outline: none;
+  
+  margin: 0.5em 1em 1em 1em;
+  padding: 1em 1em 1em 1em;    
+  
+  background: var(--wit-color);
+  font-size: 1em;
+}
+
+footer section:nth-of-type(1) article:nth-of-type(1) form img{
+  display: flex;
+  justify-content: flex-end;
+  
+  width: 2.5em;
+  height: auto;
+  border-radius: 100%;
+  padding: .5em; 
+  margin: .5em;
+
+  background-color: var(--wit-color);
+  
+}
+
+/* FOOTER - algemeen */
+footer section:nth-of-type(1) article:nth-of-type(2) summary{
+  margin: .5em 0 .5em 1em;
+  list-style-type: none;
+
+  color: var(--main-color);
+  font-weight: bold;
+  font-family:'Roboto', sans-serif;
+}
+
+footer section:nth-of-type(1) article:nth-of-type(2) summary img{
+  width: 5%;
+  margin-right: 1em;
+}
+
+footer section:nth-of-type(1) article:nth-of-type(2) button{
+  display: flex;
+  justify-content: flex-start;
+  
+  background-color: #f9f9f9;
+  color: #68b631 ;
+  border: 1px solid #68b631;
+  font-size: .8em;
+  text-transform: lowercase;
+  padding: 0 .5em 0 .5em;
+
+  width: fit-content;
+}
 
 
+/* FOOTER - klantenservice - over ons - privecybeleid */
+footer section:nth-of-type(1) article:nth-of-type(2) details ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+footer section:nth-of-type(1) article:nth-of-type(2) details summary  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* FOOTER - uitklap kiezen land */
+footer section:nth-of-type(1) article:nth-of-type(3) form{
+  border: none;
+  border-radius: 2em;
+  outline: none;
+  
+  margin: 1em 1em 1em 1em;
+  padding: 1em 1em 1em 1em;    
+  
+  background: var(--wit-color);
+  font-size: 1em;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+footer section:nth-of-type(1) article:nth-of-type(3) form select{
+  border: none;
+  font-family:'Roboto', sans-serif;
+  font-size: 1em;
+  color: var(--accent-color);
+
+  padding-left: 1em;
+}
+
+footer section:nth-of-type(1) article:nth-of-type(3) form img{
+  width: 10%;
+  
+}
+
+footer section:nth-of-type(1) article:nth-of-type(3) p{
+  font-weight: bold;
+  margin-left: 1em;
+}
+
+/* FOOTER - volg ons */
+footer section:nth-of-type(1) article:nth-of-type(4){
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+footer section:nth-of-type(1) article:nth-of-type(4) img:nth-of-type(1){
+  width: 10%;
+  background-color: var(--wit-color);
+  border-radius: 2em;
+  margin: 0 .5em 0 1em;
+  padding: .5em .5em .5em .5em;
+}
+
+footer section:nth-of-type(1) article:nth-of-type(4) img:nth-of-type(2){
+  width: 10%;
+  background-color: var(--wit-color);
+  border-radius: 2em;
+  padding: .5em .5em .5em .5em;
+}
+
+/* FOOTER - bottom tekst */
+footer section:nth-of-type(1) article:nth-of-type(5) {
+  margin: 4em 0 .5em 1em;
+}
+
+
+footer section:nth-of-type(1) article:nth-of-type(5) img{
+  width: 4%;
+}
+
+footer section:nth-of-type(1) article:nth-of-type(5) p{
+  color: var(--accent-color);
+  font-size: smaller;
+  text-transform: initial;
+}
+
+
+
+
+
+
+/* ///////////////////////////////////////////////
+
+              WINKELWAGEN PAGINA
+
+////////////////////////////////////////////////
+
+
+.winkelwagen main section:first-of-type h1{
+  font-size: 2em;
+  margin-top: 1.5em;
+  padding: .5em;
+  opacity: 100%;
+  text-align: left;
+}
+
+.winkelwagen main section:first-of-type p{
+  font-size: small;
+  text-transform: initial;
+  text-align: center;
+}
+
+.winkelwagen main section:first-of-type a{
+  background-color: var(--footer-color);
+  font-weight: bold;
+  border-radius: 2em;
+  padding: 1em;
+  margin-bottom: 3em;
+}*/
+ 
+
+/*algemene styling GRID*/
+
+/*grid voor de colom*/
+.winkelwagen main section:first-of-type article:nth-of-type(1) ul{
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(2, 45vw);
+
+
+}
+
+.winkelwagen main section:first-of-type h1{
+  font-size: 2em;
+  margin-top: .5em;
+  padding: .5em;
+  opacity: 100%;
+  text-align: left;
+}
+
+.winkelwagen main section:first-of-type article:nth-of-type(1){
+  background-image: none;
+}
+
+/*versierde kerstboom verpakking 400g*/ 
+.winkelwagen main section:first-of-type h2{
+  margin: 1em 0 1em 0em;
+  font-size: small;
+  font-weight: normal;
+
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+
+/*COLOM RECHTS 2*/ 
+
+/*versier u mms in blauw*/ 
+.winkelwagen main section:first-of-type article:nth-of-type(1) ul li img{
+  width: 55%;
+  height: 40%;
+}
+
+.winkelwagen main section:first-of-type a:first-of-type{
+  color: turquoise;
+  text-decoration: underline;
+  font-size: smaller;
+  margin-top: 1em;
+}
+
+.winkelwagen main section:first-of-type button{
+  width: 40%;
+  height: 10%;
+  background-color: lightgray;
+  border: none;
+  margin-top: 2em;
+}
+
+.winkelwagen main section:first-of-type input{
+  width: 40%;
+}
+
+.winkelwagen main section:first-of-type article:first-of-type ul li:last-of-type p:last-of-type{
+  text-transform: initial;
+}
+
+.winkelwagen main section:first-of-type a:last-of-type{
+  color: red;
+  text-decoration: underline;
+  font-size: small;
+}
+
+
+/*COLOM RECHTS 1*/
+.winkelwagen main section:first-of-type article:first-of-type ul li{
+  text-align: left;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.winkelwagen main section:first-of-type article:first-of-type ul h2{
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.winkelwagen main section:first-of-type article:first-of-type ul li:first-of-type p:first-of-type{
+  color: var(--accent-color);
+  text-transform: initial;
+  font-size: smaller;
+  margin: 0;
+}
