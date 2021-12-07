@@ -123,7 +123,7 @@ Afgelopen week heb ik veel gewerkt. De Basiswebsite is dan ook voor 90% klaar, h
 
 
 ### Agenda voor meeting
-samen met je groepje opstellen
+We lopen in het groepje allemaal nog tegen het openen en sluiten van het hamburger menu aan. Dit wordt dus het hoofd onderwerp van het feedback moment, daarnaast kunnen we altijd nog onze kleine vragen stellen.
 
 ### student 1 Rebecca 
  -  Hoe spreek ik een article in een section aan in de footer zonder de code van de daarvoor aangesproken article in section te krijgen?
