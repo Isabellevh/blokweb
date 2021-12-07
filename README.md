@@ -85,7 +85,7 @@ Bij het opstarten van het coderen ging het even wat moeilijk, maar nu ik eenmaal
 
 
 ### Agenda voor meeting
-samen met je groepje opstellen
+Ieder elkaar de ruimte geven om zijn/haar vragen te laten stellen.
 
 ### student 1 Rebecca 
  - Hoe ik het beste een logo in de Header zet.
