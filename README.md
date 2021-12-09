@@ -155,24 +155,30 @@ We lopen in het groepje allemaal nog tegen het openen en sluiten van het hamburg
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
+ - Voice Over
+ - Door website heen gaan met toetsenbord dmv tab
+ - 
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### De Voice Over leest niet alle elementen voor op de website
+De H1, p en atjes leest de Voice Over niet allemaal voor, in het menu leest die wel alle elementen voor, maar door de website zelf allemaal. 
+ 
+Dit zou ik kunnen aanpassen door andere instellingen te geven aan de voice over. 
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Door de website heen met het Keyboard 
+Het openen en dichtdoen van de menu kan goed, je doet dit dmv van aanklikken van de knop met de spatie. Het gaat alleen wel met een omweg, je zal helemaal terug moeten tabben om bij de knop te komen.
+ 
+Als oplossing zou ik een shortcut kunnen maken voor het open en dichtklappen voor het menu. 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+ 
+#### Zicht beperkingen 
+Tijdens de les heb ik 3 verschillende brillen getest. Een waarvan de kleuren op de website worden getest"Color #0779P", een waarmee het zicht volledig wazig wordt en eentje waarbij de rechterkant kan je zicht verdwijnt. Persoonlijk merkte ik alleen moeilijk heden bij de bril waatbij je zicht volledig wazig wordt.
+Hier nog afbeeldingen over hoe je de website ziet door de bril:
+<img src="./images/IMG_0033.HEIC" width="375px" alt="gele bril">
+<img src="./images/IMG_0034.HEIC" width="375px" alt="wazig zicht bril bril">
+<img src="./images/IMG_0036.HEIC" width="375px" alt="rechter zicht volledig zwart bril">
 
+De kleuren beperking is goed te doen met mijn website, het rechter deel van je zicht verliezen ook, maar met de wazige zicht bril kan je moeilijk de tekst lezen op mijn website. Hier zou ik eventueel de tekstgrootte voor kunnen aanpassen. 
 
 #### Titel nog een bevinding. 
 Hier korte omschrijving (met indien nodig een afbeelding)
