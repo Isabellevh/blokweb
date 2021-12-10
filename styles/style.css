@@ -14,6 +14,12 @@
   --wit-color: #ffffff;
   --zwart-kleur: #333333;
   --rodebutton-color: #C33D3F;
+  --boxshadow-color: #0000001A;
+  --cookies-color: #68b631;
+  --rodelink-winkelwagen: #d50000;
+  --aantal-winkelwagen: #e7e7e7;
+  --blauwelink-winkelwagen: #0eb1c9;
+  --lichtgrijs-color: #f9f9f9;
 }
 
 header{
@@ -25,12 +31,9 @@ header{
 
   display: flex;
   justify-content: space-between;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding: 1em;
 
-  background-color: white;
+  background-color: var(--wit-color);
 }
 
 header nav{
@@ -40,10 +43,11 @@ header nav{
   bottom: 0;
   right: 0;
   transform: translateX(-100%);
-  background-color: white;
+  
+  background-color: var(--wit-color);
+
   z-index: 2;
   width: 100vw;
-
   margin-top: 3.1em;
 }
 
@@ -58,14 +62,20 @@ ul{
   padding: 0;
 }
 
-/* Ontwerp je eigen mm's*/
+/* scrollen in menu */
+header nav{
+  overflow: auto;
+}
+
+/* 1. Ontwerp je eigen mm's met logo */
 header nav ul li:first-of-type {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
 
-  margin: 1em 2em 0 2em;
+  margin: 1em 2em 0em 2em;
+  
   color: var(--main-color);
   font-weight: bold;
 }
@@ -74,21 +84,42 @@ header nav ul li:first-of-type img:nth-of-type(1){
   width: 20%;
 }
 
+/* draaiende M in menu hover */
+header nav ul li:first-of-type img:nth-of-type(1):hover{
+  animation-name: draaiende-M;
+  animation-duration: 10s;
+  animation-iteration-count: 2;
+}
+
+@keyframes draaiende-M {
+    0% {
+        transform: rotate(0);
+        
+      }
+      100% {
+        transform: rotate(2turn);
+      }
+    }
+
 header nav ul li:first-of-type img:nth-of-type(2){
   width: 10%;
   margin-left: 1em;
 }
 
-/* Onze producten*/
+/* 2. Onze producten in menu*/
 header nav ul li:nth-of-type(2) {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
 
-  margin: 1em 0 0 2em;
+  margin: 0.5em 1em 0 2em;
+  padding-top: 1em;
+  
   color: var(--main-color);
   font-weight: bold;
+  
+  border-top: 1px solid var(--aantal-winkelwagen);
 }
 
 header nav ul li:nth-of-type(2) img:nth-of-type(1){
@@ -100,16 +131,20 @@ header nav ul li:nth-of-type(2) img:nth-of-type(2){
   margin-left: 5em;
 }
 
-/* Events en Ideeen*/
+/* 3. Events en Ideeen*/
 header nav ul li:nth-of-type(3) {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
 
-  margin: 1em 0 0 2em;
+  margin: 0.5em 1em 0 2em;
+  padding-top: 1em;
+  
   color: var(--main-color);
   font-weight: bold;
+  
+  border-top: 1px solid var(--aantal-winkelwagen);
 }
 
 header nav ul li:nth-of-type(3) img:nth-of-type(1){
@@ -121,17 +156,20 @@ header nav ul li:nth-of-type(3) img:nth-of-type(2){
   margin-left: 5.5em;
 }
 
-/* Ervaar MMS*/
+/* 4. Ervaar MMS*/
 header nav ul li:nth-of-type(4) {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
 
-  margin: 1em 0 0 2em;
+  margin: 0.5em 1em 0 2em;
+  padding-top: 1em;
+  
   color: var(--main-color);
   font-weight: bold;
   
+  border-top: 1px solid var(--aantal-winkelwagen);
 }
 
 header nav ul li:nth-of-type(4) img:nth-of-type(1){
@@ -143,18 +181,23 @@ header nav ul li:nth-of-type(4) img:nth-of-type(2){
   margin-left: 6.4em;
 }
 
-/* Bedrijfsruimte*/
+/* 5. Bedrijfsruimte*/
 header nav ul li:nth-of-type(5) {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
 
-  margin: 1em 0 0 2em;
+  margin: 0.5em 1em 0 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  
   color: var(--main-color);
   font-weight: bold;
   color: var(--main-color);
-
+  
+  border-top: 1px solid var(--aantal-winkelwagen);
+  border-bottom: 1px solid var(--aantal-winkelwagen);
 }
 
 header nav ul li:nth-of-type(5) img:nth-of-type(1){
@@ -166,24 +209,24 @@ header nav ul li:nth-of-type(5) img:nth-of-type(2){
   margin-left: 5.5em;
 }
 
-/* Schrijf u in*/
+/* Schrijf u in voor exclusieve acties en aanbiedingen*/
 header nav ul li:nth-of-type(6){
   display: flex;
   justify-content: center;
 
   margin-top: 1.5em;
+
   font-family:'Roboto', sans-serif;
   font-weight: bold;
   color: var(--accent-color);
   text-align: center;
 }
 
-/*Account aanmaken butten*/
+/*Account aanmaken bruine butten*/
 header nav ul li:nth-of-type(7){
-  display: flex;
-  justify-content: center;
+  width: 80%;
 
-  margin-top: 1.5em;
+  margin: 1.5em 2em;
   padding: .5em 0 .5em 0;
 
   background-color: var(--main-color);
@@ -219,23 +262,25 @@ header nav ul li:nth-of-type(9){
   text-decoration: underline;
 }
 
-/*status bestelling*/
+/*status bestelling controleren*/
 header nav ul li:nth-of-type(10){
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
 
-  background-color: #f9f9f9;
+  background-color: var(--lichtgrijs-color);
 
   margin-top: 1.5em;
   padding: 1em 1em 1em 1em;
   
   font-family:'Roboto', sans-serif;
   font-size: smaller;
-
   color: var(--accent-color);
   text-align: center;
+
+  border-top: 1px solid var(--aantal-winkelwagen);
+  border-bottom: 1px solid var(--aantal-winkelwagen);
 }
 
 header nav ul li:nth-of-type(10) img:nth-of-type(1){
@@ -250,7 +295,7 @@ header nav ul li:nth-of-type(11){
   align-items: center;
   flex-direction: row;
 
-  background-color: #f9f9f9;
+  background-color: var(--lichtgrijs-color);
   padding: 1em 1em 1em 1em;
   
   font-family:'Roboto', sans-serif;
@@ -258,6 +303,8 @@ header nav ul li:nth-of-type(11){
 
   color: var(--accent-color);
   text-align: center;
+
+  border-bottom: 1px solid var(--aantal-winkelwagen);
 }
 
 header nav ul li:nth-of-type(11) img:nth-of-type(1){
@@ -273,20 +320,21 @@ header nav ul li:nth-of-type(11) img:nth-of-type(1){
 main{
   margin: 0;
   padding: 0;
-}
+} 
 
 body {
   text-transform: uppercase;
 }
 
+/*het logo in de rode button*/
 .logo{
   width: 20%;
 }
 
-/* button voor over de afbeeldingen*/
+/* button voor over de afbeeldingen van rood/groene MM*/
 button{
   border: none;
-  background-color: white;
+  background-color: var(--wit-color);
 }
 
 button img {
@@ -331,12 +379,14 @@ main article {
   align-items: center;
 }
 
-/* alles binnen "Een uniek cadeau voor een magisch kerstfeest" */
+/* witte vlak"Een uniek cadeau voor een magisch kerstfeest" */
 h1{
   margin-top: 4em;
-  background-color: white;
-  opacity: 70%;
   padding: 1em;
+  
+  background-color: var(--wit-color);
+  opacity: 70%;
+  
   text-align: center;
   font-weight: bold;
 }
@@ -350,8 +400,8 @@ section:nth-of-type(1) article:nth-of-type(1) p a{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 0 3em 0 3em;
   
+  margin: 0 3em 0 3em;
   height: 3em;
   background-color: var(--rodebutton-color);
   border-radius: 1.5em;
@@ -383,9 +433,11 @@ section:nth-of-type(2) article:nth-of-type(1) {
 section:nth-of-type(2) article:nth-of-type(1) button {
   margin-top: 15em;
   padding: 1em 1em 1em 1em;
+  
   border: none;
-  box-shadow: 0px 20px 30px #0000001A;
-  background-color: white;
+  box-shadow: 0px 20px 30px var(--boxshadow-color);
+  
+  background-color: var(--wit-color);
 }
 
 /* article 3= verjaardag*/
@@ -407,9 +459,11 @@ section:nth-of-type(2) article:nth-of-type(2) {
 section:nth-of-type(2) article:nth-of-type(2) button {
   margin-top: 15em;
   padding: 1em 1em 1em 1em;
+  
   border: none;
-  box-shadow: 0px 20px 30px #0000001A;
-  background-color: white;
+  box-shadow: 0px 20px 30px var(--boxshadow-color);
+  
+  background-color: var(--wit-color);
 }
 
 /* article 4= loveyou*/
@@ -431,9 +485,11 @@ section:nth-of-type(2) article:nth-of-type(3) {
 section:nth-of-type(2) article:nth-of-type(3) button {
   margin-top: 15em;
   padding: 1em 1em 1em 1em;
+  
   border: none;
   box-shadow: 0px 20px 30px #0000001A;
-  background-color: white;
+  
+  background-color: var(--wit-color);
 }
 
 
@@ -454,23 +510,31 @@ h3{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  
   text-align: center;
   text-transform: uppercase;
+  
   font-size: 1.5em;
 }
 
+/* span omdat ik zo voor de H3 de cijfers kon plaatsen met een border radius */
 h3 span:first-of-type{
   margin-right: 1em;
-  border-radius: 100%;
-  background-color: var(--main-color);
   padding: .5em .8em .5em .8em;
+  
+  border-radius: 100%;
+  
+  background-color: var(--main-color);
   color: var(--wit-color);
 }
+
 h3 span{
   margin-right: 1em;
-  border-radius: 100%;
-  background-color: var(--main-color);
   padding: .5em .5em .5em .5em;
+  
+  border-radius: 100%;
+
+  background-color: var(--main-color);
   color: var(--wit-color);
 }
 
@@ -511,9 +575,11 @@ section:nth-of-type(3) p{
 
 section:nth-of-type(3) a{
   width: fit-content;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
   border-radius: 1.5em;
   border: .1em solid var(--accent-color);
 } 
@@ -527,15 +593,16 @@ p a img{
 }
 
 /* SECTION 4 -- Speciale gelegenheid*/
-
 li{
+  padding: 0;
+  margin: 0;
+  
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
   list-style-type: none;
-  padding: 0;
-  margin: 0;
 }
 
 section:nth-of-type(4) h2{
@@ -544,9 +611,11 @@ section:nth-of-type(4) h2{
 
 section:nth-of-type(4) a{
   width: fit-content;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
   border-radius: 1.5em;
   border: .1em solid var(--accent-color);
 } 
@@ -570,10 +639,10 @@ section:nth-of-type(4) p{
 
 /* SECTION 5 -- Perfecte geschenk*/
 
-
 /*vallende mmns net roze achtergrond*/
 section:nth-of-type(5) {
   background-color: var(--pink-background);
+
   padding-bottom: 3em;
   margin-top: 3em;
 }
@@ -601,26 +670,28 @@ section:nth-of-type(5) article:nth-of-type(1) img{
 }
 
 section:nth-of-type(5) article:nth-of-type(2) a{
-  background-color: var(--wit-color);
-  border-radius: 2em;
-  padding:  .5em .8em .5em .8em ;
-  color: var(--pink-background);
   margin: 0 0 .5em 1em;
+  padding:  .5em .8em .5em .8em ;
+  
+  background-color: var(--wit-color);
+  color: var(--pink-background);
+  
+  border-radius: 2em;
 }
 
 section:nth-of-type(5) article:nth-of-type(3){
-  background-color: var(--wit-color);
+  margin: 1em 1.5em 1em 1.5em;
+  padding-bottom: 1em;
   
   display: flex;
   justify-content: center;
   align-items: center;
-
-  margin: 1em 1.5em 1em 1.5em;
-  padding-bottom: 1em;
+  
+  background-color: var(--wit-color);
 }
 
 section:nth-of-type(5) article:nth-of-type(3) img{
-  width: 80vw;
+  width: 80%;
   margin-top: 2em;
 }
 
@@ -633,6 +704,7 @@ section:nth-of-type(5) article:nth-of-type(3) a{
   
   background-color: var(--wit-color);
   border-radius: 1.5em;
+
   border: 1px solid var(--accent-color);
 }
 
@@ -688,18 +760,20 @@ section:nth-of-type(6) a{
 
 /* SECTION 7 -- Berlin*/
 section:nth-of-type(7){
-  background-image: url("../images/berlin.jpeg");
-  background-size: cover;
   height: calc(100vw);
   width: calc(100vw - 1em);
-  object-fit: fill;
-
+  
+  padding-bottom: 1.5em;
+  
   display: flex;
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
   
-  padding-bottom: 1.5em;
+  background-image: url("../images/berlin.jpeg");
+  background-size: cover;
+  
+  object-fit: fill;
 }
 
 section:nth-of-type(7) a{
@@ -715,10 +789,6 @@ section:nth-of-type(7) a{
 
 /* SECTION 8 -- Zij vertrouwen op ons*/
 section:nth-of-type(8) img{
- /* display: flex;
-  justify-content: center;
-  align-items: center;*/
-  
   width: 60%;
   margin-left: 4em;
   margin-bottom: 2em;
@@ -727,6 +797,7 @@ section:nth-of-type(8) img{
 /* FOOTER - Section 9 */
 footer section{
   background-color: var(--footer-color);
+  margin-top: 5em;
 }
 
 footer section article{
@@ -749,33 +820,32 @@ footer section:nth-of-type(1) article:nth-of-type(1) p:nth-of-type(2){
 /* FOOTER - input email */
 footer section:nth-of-type(1) article:nth-of-type(1) form{
     display: flex;
-
+    margin: 0 1em;
 }
 
 footer section:nth-of-type(1) article:nth-of-type(1) form input{
   border: none;
   border-radius: 2em;
-  outline: none;
   
   margin: 0.5em 1em 1em 1em;
-  padding: 1em 1em 1em 1em;    
+  padding: 1em;    
+
+  /* zorgt ervoor dat de input en img gelijk naast elkaar blijven staan */
+  flex: 1;
+  margin: 0;
   
   background: var(--wit-color);
   font-size: 1em;
 }
 
 footer section:nth-of-type(1) article:nth-of-type(1) form img{
-  display: flex;
-  justify-content: flex-end;
-  
-  width: 2.5em;
-  height: auto;
-  border-radius: 100%;
+  width: 50px;
+  margin-left: 0.75em;
   padding: .5em; 
-  margin: .5em;
-
-  background-color: var(--wit-color);
   
+  border-radius: 100%;
+  
+  background-color: var(--wit-color);
 }
 
 /* FOOTER - algemeen */
@@ -793,20 +863,30 @@ footer section:nth-of-type(1) article:nth-of-type(2) summary img{
   margin-right: 1em;
 }
 
+/* FOOTER - de pijltjes aan de linkerkant draaien als het menu open is geklapt */
+footer section:nth-of-type(1) article:nth-of-type(2) details[open] summary img{
+  transform: rotate(180deg);
+}
+
 footer section:nth-of-type(1) article:nth-of-type(2) button{
+  width: fit-content;
+  
+  padding: 1em .5em 1em .5em;
+  margin-left: 1em;
+  height: auto;
+  margin-top: .6em;
+  
   display: flex;
   justify-content: flex-start;
   
-  background-color: #f9f9f9;
-  color: #68b631 ;
-  border: 1px solid #68b631;
+  background-color: var(--lichtgrijs-color);
+  color: var(--cookies-color) ;
+  
+  border: 1px solid var(--cookies-color);
+  
   font-size: .8em;
-  text-transform: lowercase;
-  padding: 0 .5em 0 .5em;
-
-  width: fit-content;
+  text-transform: initial;
 }
-
 
 /* FOOTER - klantenservice - over ons - privecybeleid */
 footer section:nth-of-type(1) article:nth-of-type(2) details ul li {
@@ -814,29 +894,49 @@ footer section:nth-of-type(1) article:nth-of-type(2) details ul li {
   flex-direction: column;
   justify-content: flex-start;
 
+  margin-top: 1em;
+}
+
+footer section:nth-of-type(1) article:nth-of-type(2) details ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  margin: 0 1em;
+
+  text-transform: initial;
+}
+
+footer section:nth-of-type(1) article:nth-of-type(2) details ul li a{
+  color: var(--accent-color);
+  text-decoration: none;
+
+  margin: .5em 0 0 1.5em;
 }
 
 footer section:nth-of-type(1) article:nth-of-type(2) details summary  {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  margin: .5em 1em -.57em 1em;
+  padding: 1em;
+
+  border-bottom: 1px solid var(--accent-color);
+  border-top: 1px solid var(--accent-color);
 }
 
-/* FOOTER - uitklap kiezen land */
+/* FOOTER - uitklap kiezen land - hoe netjes uitlijnen*/ 
 footer section:nth-of-type(1) article:nth-of-type(3) form{
-  border: none;
-  border-radius: 2em;
-  outline: none;
+  margin: 1em;
+  padding: 1em;  
   
-  margin: 1em 1em 1em 1em;
-  padding: 1em 1em 1em 1em;    
+  border: none;
+  border-radius: 2em;  
   
   background: var(--wit-color);
+  
   font-size: 1em;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
 }
 
 footer section:nth-of-type(1) article:nth-of-type(3) form select{
@@ -850,7 +950,6 @@ footer section:nth-of-type(1) article:nth-of-type(3) form select{
 
 footer section:nth-of-type(1) article:nth-of-type(3) form img{
   width: 10%;
-  
 }
 
 footer section:nth-of-type(1) article:nth-of-type(3) p{
@@ -867,17 +966,21 @@ footer section:nth-of-type(1) article:nth-of-type(4){
 
 footer section:nth-of-type(1) article:nth-of-type(4) img:nth-of-type(1){
   width: 10%;
+  
+  margin: 0 .5em 0 1em;
+  padding: .5em;
+
   background-color: var(--wit-color);
   border-radius: 2em;
-  margin: 0 .5em 0 1em;
-  padding: .5em .5em .5em .5em;
 }
 
 footer section:nth-of-type(1) article:nth-of-type(4) img:nth-of-type(2){
   width: 10%;
+
+  padding: .5em;
+  
   background-color: var(--wit-color);
   border-radius: 2em;
-  padding: .5em .5em .5em .5em;
 }
 
 /* FOOTER - bottom tekst */
@@ -885,19 +988,15 @@ footer section:nth-of-type(1) article:nth-of-type(5) {
   margin: 4em 0 .5em 1em;
 }
 
-
 footer section:nth-of-type(1) article:nth-of-type(5) img{
   width: 4%;
 }
 
 footer section:nth-of-type(1) article:nth-of-type(5) p{
   color: var(--accent-color);
-  font-size: smaller;
+  font-size: .8em;
   text-transform: initial;
 }
-
-
-
 
 
 
@@ -907,30 +1006,7 @@ footer section:nth-of-type(1) article:nth-of-type(5) p{
 
 ////////////////////////////////////////////////
 
-
-.winkelwagen main section:first-of-type h1{
-  font-size: 2em;
-  margin-top: 1.5em;
-  padding: .5em;
-  opacity: 100%;
-  text-align: left;
-}
-
-.winkelwagen main section:first-of-type p{
-  font-size: small;
-  text-transform: initial;
-  text-align: center;
-}
-
-.winkelwagen main section:first-of-type a{
-  background-color: var(--footer-color);
-  font-weight: bold;
-  border-radius: 2em;
-  padding: 1em;
-  margin-bottom: 3em;
-}*/
  
-
 /*algemene styling GRID*/
 
 /*grid voor de colom*/
@@ -938,16 +1014,16 @@ footer section:nth-of-type(1) article:nth-of-type(5) p{
   display: grid;
   gap: 1em;
   grid-template-columns: repeat(2, 45vw);
-
-
 }
 
 .winkelwagen main section:first-of-type h1{
-  font-size: 2em;
-  margin-top: .5em;
+  margin-top: 2em;
   padding: .5em;
-  opacity: 100%;
+  
+  font-size: 2em;
+  
   text-align: left;
+  opacity: 100%;
 }
 
 .winkelwagen main section:first-of-type article:nth-of-type(1){
@@ -957,55 +1033,63 @@ footer section:nth-of-type(1) article:nth-of-type(5) p{
 /*versierde kerstboom verpakking 400g*/ 
 .winkelwagen main section:first-of-type h2{
   margin: 1em 0 1em 0em;
-  font-size: small;
-  font-weight: normal;
 
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
+  
+  font-size: 0.8em;
+  font-weight: normal;
 }
 
-
 /*COLOM RECHTS 2*/ 
-
-/*versier u mms in blauw*/ 
 .winkelwagen main section:first-of-type article:nth-of-type(1) ul li img{
-  width: 55%;
+  width: 75%;
   height: 40%;
 }
 
 .winkelwagen main section:first-of-type a:first-of-type{
-  color: turquoise;
-  text-decoration: underline;
-  font-size: smaller;
   margin-top: 1em;
+
+  color: var(--blauwelink-winkelwagen);
+  text-decoration: underline;
+  font-size: 0.8em;
 }
 
 .winkelwagen main section:first-of-type button{
   width: 40%;
   height: 10%;
-  background-color: lightgray;
+
+  margin-top: .5em;
+  margin-left: 2em;
+  
+  background-color: var(--aantal-winkelwagen);
   border: none;
-  margin-top: 2em;
 }
 
 .winkelwagen main section:first-of-type input{
   width: 40%;
+  margin: 0 .5em 0 .5em;
 }
 
 .winkelwagen main section:first-of-type article:first-of-type ul li:last-of-type p:last-of-type{
+  margin-top: 2em;
+  
   text-transform: initial;
+  font-weight: bold;
+  font-size: .8em;
 }
 
 .winkelwagen main section:first-of-type a:last-of-type{
-  color: red;
+  color: var(--rodelink-winkelwagen);
   text-decoration: underline;
-  font-size: small;
+  font-size: 0.8em;
+  font-weight: bold;
 }
 
-
-/*COLOM RECHTS 1*/
+/*COLOM links 1*/
 .winkelwagen main section:first-of-type article:first-of-type ul li{
+  margin-left: 1.5em;
   text-align: left;
 
   display: flex;
@@ -1019,8 +1103,217 @@ footer section:nth-of-type(1) article:nth-of-type(5) p{
 }
 
 .winkelwagen main section:first-of-type article:first-of-type ul li:first-of-type p:first-of-type{
+  margin: 0;
+  
   color: var(--accent-color);
   text-transform: initial;
-  font-size: smaller;
-  margin: 0;
+  font-size: 0.7em;
+}
+
+.winkelwagen main section:first-of-type article:first-of-type ul li:first-of-type p:last-of-type{
+  margin-top: 3em;
+
+  text-transform: initial;
+  font-weight: bold;
+}
+
+/*aanbieding waardebon*/
+.winkelwagen main section:first-of-type article:nth-of-type(2){
+  background-color: var(--aantal-winkelwagen);
+  margin: 1em;
+}
+
+.winkelwagen main section:first-of-type article:nth-of-type(2) p:first-of-type{
+  margin-top: 1em;
+  margin-right: 0;
+  
+  text-transform: initial;
+  color: var(--accent-color);
+  
+  font-size: .8em;
+  text-align: center;
+}
+
+.winkelwagen main section:first-of-type article:nth-of-type(2) input{
+  width: 72%;
+  padding: 2em;
+  border-color: var(--aantal-winkelwagen);
+}
+
+.winkelwagen main section:first-of-type article:nth-of-type(2) a{
+  width: 72%;
+  padding: 1em;
+  margin-bottom: 1.5em;
+  
+  background-color: var(--footer-color);
+  color: var(--main-color);
+  
+  border-radius: 2em;
+  
+  text-decoration: none;
+  text-align: center;
+  font-size: 1em;
+}
+
+.winkelwagen main section:first-of-type p:first-of-type{
+  margin-right: 1.5em;
+  
+  color: var(--main-color);
+  font-style: italic;
+  text-transform: initial;
+  font-size: 0.6em;
+  text-align: right;
+}
+
+/*subtotaal artikelen*/
+.winkelwagen main section:first-of-type article:nth-of-type(3) {
+  margin-left: 1em;
+  
+  display: flex;
+  flex-direction: row; 
+  justify-content: flex-end; 
+
+  border-bottom: 1px solid var(--aantal-winkelwagen);
+}
+
+.winkelwagen main section:first-of-type article:nth-of-type(3) p{
+  font-size: 1em;
+  font-style: normal;
+  margin-right: 1em;
+}
+
+/*BTW*/
+.winkelwagen main section:first-of-type article:nth-of-type(4) {
+  display: flex;
+  flex-direction: row; 
+  justify-content: flex-end; 
+}
+
+.winkelwagen main section:first-of-type article:nth-of-type(4) p{
+  margin-right: 1em;
+  
+  font-size: 1em;
+  font-style: normal;
+}
+
+/*BTW*/
+.winkelwagen main section:first-of-type article:nth-of-type(5) {
+  display: flex;
+  flex-direction: row; 
+  justify-content: flex-end; 
+}
+
+.winkelwagen main section:first-of-type article:nth-of-type(5) p{
+  margin-right: 1em;
+  margin-bottom: 2em;
+  
+  font-size: 1em;
+  font-style: normal;
+}
+
+/*bestel knoppen*/
+.winkelwagen main section:first-of-type article:nth-of-type(6) a{
+  width: 85%;
+  padding: 1em;
+  margin-bottom: 1em;
+  
+  background-color: var(--footer-color);
+  color: var(--main-color);
+  
+  border-radius: 2em;
+  
+  text-decoration: none;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/*grid 2 cadeu/ wenskaart*/
+.winkelwagen main section:first-of-type article:nth-of-type(7) ul{
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(2, 40vw);
+}
+
+.winkelwagen main section:first-of-type article:nth-of-type(7) ul li:first-of-type img{
+  width: 80%;
+  border-left: 2px solid var(--accent-color);
+}
+
+.winkelwagen main section:first-of-type article:nth-of-type(7) ul li:last-of-type p{
+  font-size: 1em;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+
+  color: var(--accent-color);
+}
+
+.winkelwagen main section:first-of-type article:nth-of-type(7) ul li:last-of-type img{
+  width: 20%;
+}
+
+.winkelwagen main section:first-of-type article:nth-of-type(7) ul li:last-of-type a {
+  margin-right: 1em;
+  margin-bottom: 2em;
+  
+  font-size: 1em;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: initial;
+  
+  color: var(--accent-color);
+}
+
+.winkelwagen main section:first-of-type article:nth-of-type(8) {
+  width: 90%;
+  
+  margin-right: 1em;
+  margin-left: 1em;
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+  background-image: url(../images/MicrosoftTeams-image.png);
+  background-size: cover;
+}
+
+.winkelwagen main section:first-of-type article:nth-of-type(8) img {
+  width: 80%;
+}
+
+.winkelwagen main section:first-of-type article:nth-of-type(8) p {
+  margin-left: 1em;
+  
+  color: var(--wit-color);
+  font-size: 1em;
+  text-align: left;
+}
+
+.winkelwagen main section:first-of-type article:nth-of-type(8) a {
+  width: fit-content;
+  margin-bottom: 1em;
+  margin-right: 2em;
+  padding: 1em;
+  
+  background-color: var(--footer-color);
+  color: var(--main-color);
+  
+  border-radius: 2em;
+  
+  text-decoration: none;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.winkelwagen main section:first-of-type p:last-of-type{
+  font-style: normal;  
+  text-transform: initial;
+  text-align: center;
+}
+
+.winkelwagen main section:first-of-type p:last-of-type a{
+  color: var(--accent-color);
 }
