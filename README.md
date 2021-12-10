@@ -157,7 +157,7 @@ We lopen in het groepje allemaal nog tegen het openen en sluiten van het hamburg
 Lijst met je bevindingen die in de test naar voren kwamen:
  - Voice Over
  - Door website heen gaan met toetsenbord dmv tab
- - 
+ 
 
 #### De Voice Over leest niet alle elementen voor op de website
 De H1, p en atjes leest de Voice Over niet allemaal voor, in het menu leest die wel alle elementen voor, maar door de website zelf allemaal. 
@@ -174,16 +174,11 @@ Als oplossing zou ik een shortcut kunnen maken voor het open en dichtklappen voo
 #### Zicht beperkingen 
 Tijdens de les heb ik 3 verschillende brillen getest. Een waarvan de kleuren op de website worden getest"Color #0779P", een waarmee het zicht volledig wazig wordt en eentje waarbij de rechterkant kan je zicht verdwijnt. Persoonlijk merkte ik alleen moeilijk heden bij de bril waatbij je zicht volledig wazig wordt.
 Hier nog afbeeldingen over hoe je de website ziet door de bril:
-<img src="./images/IMG_0033.HEIC" width="375px" alt="gele bril">
-<img src="./images/IMG_0034.HEIC" width="375px" alt="wazig zicht bril bril">
-<img src="./images/IMG_0036.HEIC" width="375px" alt="rechter zicht volledig zwart bril">
+<img src="./images/IMG_0033.jpeg" width="375px" alt="gele bril">
+<img src="./images/IMG_0034.jpeg" width="375px" alt="wazig zicht bril bril">
+<img src="./images/IMG_0036.jpeg" width="375px" alt="rechter zicht volledig zwart bril">
 
 De kleuren beperking is goed te doen met mijn website, het rechter deel van je zicht verliezen ook, maar met de wazige zicht bril kan je moeilijk de tekst lezen op mijn website. Hier zou ik eventueel de tekstgrootte voor kunnen aanpassen. 
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 </details>
 
@@ -197,26 +192,31 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Voor het laatste feedback gesprek waren allebei mijn website pagina's eigenlijk al klaar. De laatste kleine opstakels wilde ik nog bespreken met de studentassistenten. Zoals het stijlen van een bepaalde input en het uitlijnen van de footer. 
 
 ### Agenda voor meeting
-samen met je groepje opstellen
+Daan had geen vragen meer tijdens het gesprek, dus Rebecca en ik konden om de beurt onze schermen delen en alle vragen die we nog hadden met Martijn bespreken. Daarna had ik nog een bepaalde vraag over het stylen van een input in mijn winkelwagen pagina en hier heeft Rowin mij nog mee geholpen. 
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+### student 1 Rebecca 
+- Hoe sluit ik het beste een filter menu 
+ - Waarom doet de "lees meer" button het niet 
+ - Hoe kan ik het hartje van kleur laten veranderen
+ 
+ ### student 2 Beyza 
+ -
+ 
+### student 3 Ik 
+ - Hoe kan ik het beste een input stijlen zonder class. 
+ 
+### student 4 Daan
+- 
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Na de meeting voelde ik me erg opgelucht. Want mijn website was klaaaaar. Super blij en had nooit gedacht dat ik zover zou komen. 
+ 
+- We hebben gekeken naar hoe ik het beste een input kon stijlen. 
+- De HTML en CSS door de validator gehaald.
 
 </details>
 
@@ -247,10 +247,27 @@ hier screenshot(s) van je eindresultaat
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
-
-1. bron 1
-2. bron 2
-3. ...
-
+Deze bronnen heb ik gebruikt voor het bouwen van de website
+1. https://flexboxfroggy.com/#nl
+2. https://www.w3schools.com/cssref/sel_first-of-type.asp](https://www.w3schools.com/cssref/sel_first-of-type.asp)
+3. https://www.w3schools.com/cssref/pr_background-image.asp
+4. [https://www.google.com/search?q=css+color+picker&oq=css+col&aqs=chrome.1.0i512l2j69i57j0i512l7.2555j0j7&sourceid=chrome&ie=UTF-8](https://www.google.com/search?q=css+color+picker&oq=css+col&aqs=chrome.1.0i512l2j69i57j0i512l7.2555j0j7&sourceid=chrome&ie=UTF-8)
+5. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+6. https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+7. https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_searchbar
+8. https://www.w3schools.com/css/css_form.asp](https://www.w3schools.com/css/css_form.asp)
+ 
+Deze bronnen heb ik gebruikt voor mijn iconen
+1. [https://iconscout.com/unicons/explore/line](https://iconscout.com/unicons/explore/line)
+2. [https://www.w3schools.com/colors/colors_picker.asp](https://www.w3schools.com/colors/colors_picker.asp)
+ 
+Deze Code Pen's heb ik gebruikt
+1. [https://codepen.io/isabellevh/pen/KKvLybZ](https://codepen.io/isabellevh/pen/KKvLybZ)
+2. [https://codepen.io/shooft/pen/zYzEPgv](https://codepen.io/shooft/pen/zYzEPgv)
+3. [https://codepen.io/robertspier/pen/RwZXydG](https://codepen.io/robertspier/pen/RwZXydG)
+4. [https://codepen.io/manabox/pen/PREdQQ?editors=1100](https://codepen.io/manabox/pen/PREdQQ?editors=1100)
+ 
+En als laatste deze youtube videos hebben mij geholpen
+1. https://www.youtube.com/watch?v=vdybWi55dWQ
+2. [https://www.youtube.com/watch?v=v8mRUU3orjI](https://www.youtube.com/watch?v=v8mRUU3orjI)
 </details>
