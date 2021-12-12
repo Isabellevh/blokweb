@@ -230,12 +230,12 @@ Na de meeting voelde ik me erg opgelucht. Want mijn website was klaaaaar. Super 
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+De laatste onderdelen van het coderen gingen best goed. Zo heb ik de kleine details toegevoegd. Bij de footer dat het pijltje volledig draait als die open-gesloten is en heb ik de twee pagina's aan elkaar gelinkt in het menu door middel van het winkelwagen icoon.
 
 ### Screenshot(s)
-
-hier screenshot(s) van je eindresultaat
-
+<img src="../basiswebsite/images/schermen-code-github/definitieve-website-pagina1.png">
+<img src="../basiswebsite/images/schermen-code-github/definitieve-winkelmand-pagina2.png">
+ 
 </details>
 
 
