@@ -233,8 +233,8 @@ Na de meeting voelde ik me erg opgelucht. Want mijn website was klaaaaar. Super 
 De laatste onderdelen van het coderen gingen best goed. Zo heb ik de kleine details toegevoegd. Bij de footer dat het pijltje volledig draait als die open-gesloten is en heb ik de twee pagina's aan elkaar gelinkt in het menu door middel van het winkelwagen icoon.
 
 ### Screenshot(s)
-				<img src="../basiswebsite/images/definitieve-website-pagina1.png" alt="definitieve-website-pagina1">
-				<img src="../basiswebsite/images/definitieve-winkelmand-pagina2.png" alt="definitieve-winkelmand-pagina2">
+<img src="./images/definitieve-website-pagina1.png" alt="definitieve-website-pagina1">
+<img src="./images/definitieve-winkelmand-pagina2.png" alt="definitieve-winkelmand-pagina2">
  
 </details>
 
