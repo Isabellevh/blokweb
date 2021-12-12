@@ -174,9 +174,9 @@ Als oplossing zou ik een shortcut kunnen maken voor het open en dichtklappen voo
 #### Zicht beperkingen 
 Tijdens de les heb ik 3 verschillende brillen getest. Een waarvan de kleuren op de website worden getest"Color #0779P", een waarmee het zicht volledig wazig wordt en eentje waarbij de rechterkant kan je zicht verdwijnt. Persoonlijk merkte ik alleen moeilijk heden bij de bril waatbij je zicht volledig wazig wordt.
 Hier nog afbeeldingen over hoe je de website ziet door de bril:
-<img src="./images/IMG_0033.jpeg" width="375px" alt="gele bril">
-<img src="./images/IMG_0034.jpeg" width="375px" alt="wazig zicht bril bril">
-<img src="./images/IMG_0036.jpeg" width="375px" alt="rechter zicht volledig zwart bril">
+<img src="./images/bril1.png" width="375px" alt="rechter zicht volledig zwart bril">
+<img src="./images/bril2.png" width="375px" alt="wazig zicht bril bril">
+<img src="./images/bril3.png" width="375px" alt="gele bril">
 
 De kleuren beperking is goed te doen met mijn website, het rechter deel van je zicht verliezen ook, maar met de wazige zicht bril kan je moeilijk de tekst lezen op mijn website. Hier zou ik eventueel de tekstgrootte voor kunnen aanpassen. 
 
